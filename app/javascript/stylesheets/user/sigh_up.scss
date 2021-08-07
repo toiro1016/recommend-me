@@ -1,0 +1,47 @@
+sign-up-page {
+  max-width: 360px;
+  margin: 8px auto 0;
+}
+
+.btn-light {
+  color: #616161;
+}
+
+.sign-up__submit-btn {
+  background-color: #fd3367;
+  height: 38px;
+}
+
+.input-birth-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input-birth-wrap select {
+  width: 75px;
+  margin-top: 5px;
+  height: 45px;
+  padding-left: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.input-birth-wrap p {
+  line-height: 60px;
+  padding: 0 5px;
+}
+
+@media (max-width: 480px) {
+  .sign-up-page {
+    max-width: initial;
+  }
+  .card {
+    border: none;
+    &-header {
+      background-color: #fff;
+    }
+  }
+}
