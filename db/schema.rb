@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2021_08_06_024831) do
     t.string "last_name"
     t.date "birthday"
     t.text "self_introduction"
+    t.string "profile_image"
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
