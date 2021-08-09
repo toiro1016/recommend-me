@@ -10,7 +10,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[6.0]
       t.string :first_name,         nill: false
       t.string :last_name,          nill: false
       t.date   :birthday,           nill: false
-
+      t.text   :self_introduction
 
       ## Recoverable
       t.string   :reset_password_token
