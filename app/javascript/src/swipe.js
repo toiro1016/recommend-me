@@ -49,6 +49,8 @@ if(location.pathname == "/user") {
 
         let keep = Math.abs(event.deltaX) < 200
         event.target.classList.toggle('removed', !keep);
+        let reaction = event.deltaX > 0 ? "like" : "dislike";
+
 
         if (keep) {
           event.target.style.transform = '';
