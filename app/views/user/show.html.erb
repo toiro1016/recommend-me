@@ -13,19 +13,32 @@
     <%= @user.nickname %>
   </div>
 
+<<<<<<< Updated upstream
     <div class="profile-text">
     <%= @user.self_introduction %>
   </div>
+=======
+    <div class="profile-name mt-4">
+      <%= @user.nickname %>
+    </div>
+>>>>>>> Stashed changes
 
   </div>
 
   <% if current_user.id == @user.id %>
     <div class="user-action">
       <div class="user-action-common">
+<<<<<<< Updated upstream
       <%= link_to destroy_user_session_path, method: :delete do %>
       <i class="fas fa-sign-out-alt fa-2x"></i>
       <% end %>
       <span>ログアウト</span>
+=======
+        <%= link_to destroy_user_session_path, method:delete do %>
+          <i class="fas fa-sign-out-alt fa-2x"></i>
+        <% end %>
+        <span>ログアウト</span>
+>>>>>>> Stashed changes
       </div>
       <div class="user-action-common">
       <%= link_to edit_user_registration_path do %>
