@@ -1,5 +1,5 @@
 .user-index-page {
-  max-width: 480px;
+  max-width: 600px;
   margin: auto 0;
   .profile {
     display: flex;
@@ -112,11 +112,11 @@
       }
     }
   }
-  &_like .fa-heart {
+  &_like .fa-handshake {
     opacity: 0.7;
     transform: scale(1);
   }
-  &_dislike .fa-times {
+  &_dislike .fa-pray {
     opacity: 0.7;
     transform: scale(1);
   }
@@ -128,11 +128,11 @@
   }
 }
 
-.fa-heart {
+.fa-handshake {
   color: #FFACE4;
 }
 
-.fa-times {
+.fa-pray {
   color: #CDD6DD;
 }
 
