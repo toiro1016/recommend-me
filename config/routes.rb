@@ -8,4 +8,7 @@ Rails.application.routes.draw do
  root to: "recommend#index"
 
  resources :user, only:[:show, :index]
+ resources :reactions, only: [:create]
+ resources :matching, only: [:index]
+
 end
