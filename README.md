@@ -10,7 +10,8 @@
 # DEMO  
 トップページ
 [![Image from Gyazo](https://i.gyazo.com/843722438a3b458e1b9ff28f8cdf65d1.jpg)](https://gyazo.com/843722438a3b458e1b9ff28f8cdf65d1)  
-
+マッチングページ
+[![Image from Gyazo](https://i.gyazo.com/761f4cbb09e07f7eff2d5138967b4ce6.gif)](https://gyazo.com/761f4cbb09e07f7eff2d5138967b4ce6)
 
 # 実装予定の内容
 + いいね機能　　　・・・気に入ったオススメ記事にいいねをつけられる
