@@ -5,6 +5,8 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   has_many :reactions
+  has_many :chat_room_users
+  has_many :chat_rooms, through: :chat_room_users
 
 
  with_options presence: true do
