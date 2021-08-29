@@ -66,3 +66,25 @@
 
 - belongs_to :user
 
+## chat_message テーブル
+
+| Column              | Type       | Options           |
+| ------------------- | ---------- | ----------------- |
+| content             | text       |                   |
+| user                | reference  | foreign_key: true |
+| chat_room           | reference  | foreign_key: true |
+
+### Association
+
+- belongs_to :user
+
+## chat_room_user テーブル
+
+| Column              | Type       | Options           |
+| ------------------- | ---------- | ----------------- |
+| chat_room           | reference  | foreign_key: true |
+| user                | reference  | foreign_key: true |
+
+### Association
+
+
